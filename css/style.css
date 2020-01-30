@@ -30,7 +30,7 @@ header {
     letter-spacing: -0.02em;
 }
 
-.covered p {
+p {
     font-family: 'Fira Sans', sans-serif;
 }
 
@@ -104,20 +104,126 @@ main {
     grid-row: 2;
 }
 
-.section-gray {
+.gray {
     display: flex;
     height: 612px;
     background-color: #a9a19e;
 }
-
-.flex-one {
-    display: flex; 
+.div-img{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 55px;
+    height: 308px;
+    width: 822px;
+    margin-top: -120px;
+    
 }
 
-.flex-one-one {
+.div-img img {
+    height: 50%;
+}
+
+.div-img > div {
+    border-radius: 5px;
+}
+
+.div-img > div > div {
+    background-position-y: 20px;
+}
+
+.div-img > div > div h2 {
+    margin: 0;
+}
+
+.div-img p {
+    text-align: center;
+    font-size: 11px;
+    line-height: 18px;
+    
+}
+
+.p-child {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 256px;
+    background-color: white;
 }
 
+.child {
+    height: 150px;
+    width: 236px;
+    background-image: url("../img/child.png");
+    background-color: #c7ddea;
+    background-size: 38%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 12px;
+    align-items: center;
+    width: 236px;
+    margin-top: -113px;   
+    border-radius: 4px;
+}
+
+.p-adult {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 256px;
+    background-color: white;
+}
+
+.adult {
+    height: 150px;
+    width: 236px;   
+    background-image: url("../img/adult.png");
+    background-color: #fab121;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 10px;
+    align-items: center;
+    width: 236px;
+    margin-top: -113px;
+    border-radius: 4px;
+}
+
+.p-old {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 256px;
+    background-color: white;
+}
+
+.old {
+    
+    height: 150px;
+    width: 236px;   
+    background-image: url("../img/old.png");
+    background-color: #f17949;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 26px;
+    align-items: center;
+    width: 236px;
+    margin-top: -113px;
+    border-radius: 4px;
+
+}
+
+.yellow {
+    background-color: #fab131;
+    height: 680px;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.yellow h2 {
+    margin: 0px;
+}
 
 
