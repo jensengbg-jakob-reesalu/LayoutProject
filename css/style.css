@@ -113,7 +113,7 @@ main {
     position: absolute;
     display: flex;
     justify-content: space-between;
-    margin-left: 55px;
+    margin-left: 150px;
     height: 308px;
     width: 822px;
     margin-top: -120px;
@@ -132,15 +132,21 @@ main {
     background-position-y: 20px;
 }
 
-.div-img > div > div h2 {
-    margin: 0;
+.div-img > div h2 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px;
+    font-family: 'Frank Ruhl Libre';
+    margin: 10px 0 10px 0;
 }
 
 .div-img p {
     text-align: center;
     font-size: 11px;
     line-height: 18px;
-    
+    margin: 0 2rem 0 2rem;
+    color: rgba(0, 0, 0, 0.4)
 }
 
 .p-child {
@@ -162,7 +168,7 @@ main {
     background-position-y: 12px;
     align-items: center;
     width: 236px;
-    margin-top: -113px;   
+    margin-top: -23px;   
     border-radius: 4px;
 }
 
@@ -185,7 +191,7 @@ main {
     background-position-y: 10px;
     align-items: center;
     width: 236px;
-    margin-top: -113px;
+    margin-top: -23px;
     border-radius: 4px;
 }
 
@@ -209,21 +215,37 @@ main {
     background-position-y: 26px;
     align-items: center;
     width: 236px;
-    margin-top: -113px;
+    margin-top: -23px;
     border-radius: 4px;
 
 }
 
 .yellow {
+    display: flex;
     background-color: #fab131;
     height: 680px;
     flex-direction: column;
-    /* justify-content: space-between; */
     align-items: center;
+    justify-content: center;
 }
 
 .yellow h2 {
-    margin: 0px;
+    margin: 2rem;
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 900;   
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
 }
 
+.yellow p {
+    margin: 0 20rem 0 20rem;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
 
