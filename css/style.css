@@ -87,8 +87,6 @@ header nav ul li:first-child a{
     opacity: 1;
 }
 
-
-
 .learn  {
     grid-column: 2;
     grid-row: 1;
