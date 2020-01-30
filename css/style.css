@@ -99,4 +99,25 @@ header nav ul li:first-child a{
     grid-row: 2;
 }
 
+main {
+    grid-column: 1 / span 6;
+    grid-row: 2;
+}
+
+.section-gray {
+    display: flex;
+    height: 612px;
+    background-color: #a9a19e;
+}
+
+.flex-one {
+    display: flex; 
+}
+
+.flex-one-one {
+    display: flex;
+    flex-direction: column;
+}
+
+
 
