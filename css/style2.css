@@ -3,25 +3,131 @@ body {
     width: 1002px;
 }
 
-
 header {
     display: flex;
     background-color: #C7DDEA;
     width: 100%;
-    height: 340px;
+    height: 450px;
     }
-    
+
 h1 {
-    font-family: "Frank Ruhl Libre";
+    margin-top: 100px;
     font-style: none;
+    font-size: 55px;
+    font-weight: 55px;
+    position: absolute;
+    height: 101px;
+    left: 325px;
+    top: 125px;
+}
+
+img {
+    align-self: flex-end;
+    margin-left: 720px;
+    width: 220px;
+}
+
+nav{
+    background-color:white ;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul li a{
+    font-family: ‘Fira Sans’, sans-serif;
+    font-size: 12px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    color: black;
+    opacity: 0.4;
+}
+nav ul li a .black{
+    font-family: ‘Fira Sans’, sans-serif;
+    font-size: 12px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    height: 544px;
+    background-color: #A9A19E;
+}    
+
+main h2 {
+    margin: 90px 0 0 0;
+    padding: 0 110px 0 110px;
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
     font-size: 45px;
-    font-weight: 45px;
-    }
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
 
-    
+.form {
+    display: flex;  
+    flex-direction: column;
+    align-items: space-between;
+    margin: 80px 110px 0 0;
+}
 
-    
+.form p {
+    margin: 20px 0 10px 0;
+    padding: 0;
+    font-family: "Fira Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
 
+.form .text-one {
+    width: 334px;
+    height: 40px;
+}
+
+.form .text-two {
+    width: 334px;
+    height: 166px;
+}
+
+.form a {
+    align-self: flex-end;
+    margin-top: 2.5rem;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    font-family: "Fira Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+}
 
 footer {
     background-color: #777574;
