@@ -337,10 +337,7 @@ main {
 
     
 }
-.sixboxes p {
-    
 
-}
 .sixboxes  span{
    
     
@@ -396,7 +393,7 @@ main {
     color: rgba(0, 0, 0, 0.7);
     font-style: normal;
     font-weight: 900;
-    font-size: 35px;
+    font-size: 17px;
     line-height: 100%;
     display: flex;
     align-items: center;
