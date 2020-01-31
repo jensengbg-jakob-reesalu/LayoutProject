@@ -85,17 +85,47 @@ header nav ul a {
 header nav ul li:first-child a{
     opacity: 1;
 }
+.learn p, .join p {
+    font-family: "Fira Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+.learn a, .join a {
+    font-family: "Frank Ruhl Libre";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 41px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
 
 .learn  {
-    grid-column: 2;
-    grid-row: 1;
     background-color: #f17949;
+    grid-column: 2 ;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
 }
 
 .join  {
     background-color: #fab131;
     grid-column: 2;
     grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
