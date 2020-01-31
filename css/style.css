@@ -86,7 +86,7 @@ header nav ul a {
 header nav ul li:first-child a{
     opacity: 1;
 }
-.learn p, .join p {
+.learn p,    .join p {
     font-family: "Fira Sans";
     font-style: normal;
     font-weight: bold;
@@ -278,4 +278,11 @@ main {
     font-size: 14px;
     line-height: 20px;
 }
+
+/* .sectio-grid {
+    display: grid;
+    grid-template-rows: repeat(3. 1fr);
+    height: ;
+
+} */
 
