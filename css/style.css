@@ -370,10 +370,6 @@ main {
     position: absolute;
     padding-bottom: 300px;
     padding-right: 260px;
-   
-  
-    
-    
     
 }
 .box1, .box2, .box3, .box4, .box5, .box6 {
@@ -385,6 +381,11 @@ main {
     height: 100%;
 }
 
+.box4 span, .box5 span, .box6 span {
+    padding-bottom: 250px;
+    padding-right: 270px;
+}
+
     
 .sixboxes .box1 h1{
    
@@ -394,6 +395,7 @@ main {
     font-weight: 900;
     font-size: 45px;
     
+
    
 }
 .sixboxes span{
@@ -416,10 +418,13 @@ main {
     text-align: center;
     letter-spacing: -0.02em;
 }
+
+.sixboxes .box1 {
+    background-color: #c7ddea;
+}
+
 .sixboxes .box2 {
-    background-color: white;
-   
-    
+    background-color: white;    
 }
     
 
