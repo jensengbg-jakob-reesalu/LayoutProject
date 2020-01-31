@@ -17,4 +17,12 @@ header {
 nav{
     
 }
+
+footer {
+    background-color: #777574;
+}
+
+footer .visit {
+    background-color: #FAB131;
+}
     
