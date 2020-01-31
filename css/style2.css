@@ -1,3 +1,5 @@
+
+
 header {
     display: flex;
     background-color: #C7DDEA;
@@ -14,4 +16,14 @@ h1 {
 
     
 
+    
+
+
+footer {
+    background-color: #777574;
+}
+
+footer .visit {
+    background-color: #FAB131;
+}
     
