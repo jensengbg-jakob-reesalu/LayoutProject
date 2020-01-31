@@ -36,7 +36,6 @@ p {
 
 .covered img {
     width: 100%;
-    
     object-fit: cover;
 }
 
@@ -106,9 +105,59 @@ main {
 
 .gray {
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 612px;
     background-color: #a9a19e;
 }
+
+.h2-gray {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    margin-bottom: 8rem;
+    width: 314px;
+}
+
+.gray h2 {
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.gray a {
+    align-self: flex-start;
+    margin-top: 2rem;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    text-decoration: none;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    padding: 1rem 3rem 1rem 3rem;
+    color: rgba(0, 0, 0, 0.8);
+
+}
+
+.gray p {
+    width: 280px;
+    margin-bottom: 8rem;
+    margin-left: 100px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
 .div-img{
     position: absolute;
     display: flex;
